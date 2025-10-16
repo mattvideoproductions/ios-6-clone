@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-primary: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-secondary: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --text-color-strong: #132b3a;
+  --text-color-soft: #35627a;
+  --text-color-muted: rgba(19, 43, 58, 0.75);
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--text-color-strong);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--text-color-strong);
+}
+
+.pill-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.75rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.08));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.55), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-color-muted);
+}

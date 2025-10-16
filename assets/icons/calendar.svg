@@ -1,0 +1,30 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Created manually for the simulator on 2024-10-16 to emulate the iOS 6 calendar icon style. -->
+  <defs>
+    <linearGradient id="bgGradient" x1="90" y1="0" x2="90" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8f8f8" />
+      <stop offset="0.55" stop-color="#dfe3e8" />
+      <stop offset="1" stop-color="#b5c0cf" />
+    </linearGradient>
+    <linearGradient id="headerGradient" x1="90" y1="0" x2="90" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f83a3a" />
+      <stop offset="1" stop-color="#bb1d1d" />
+    </linearGradient>
+    <filter id="innerShadow" x="0" y="0" width="200%" height="200%">
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="3" result="offset-blur" />
+      <feComposite operator="out" in="offset-blur" in2="SourceGraphic" result="inverse" />
+      <feFlood flood-color="rgba(0,0,0,0.25)" result="color" />
+      <feComposite operator="in" in="color" in2="inverse" result="shadow" />
+      <feComposite operator="over" in="shadow" in2="SourceGraphic" />
+    </filter>
+  </defs>
+  <g filter="url(#innerShadow)">
+    <rect x="10" y="10" width="160" height="160" rx="32" fill="url(#bgGradient)" stroke="#c1c7d0" stroke-width="2" />
+    <rect x="10" y="10" width="160" height="52" rx="32" ry="32" fill="url(#headerGradient)" />
+    <rect x="10" y="50" width="160" height="120" fill="url(#bgGradient)" />
+    <line x1="10" y1="50" x2="170" y2="50" stroke="#ad1515" stroke-width="2" />
+    <text x="90" y="40" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#ffffff">WED</text>
+    <text x="90" y="118" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="600" fill="#2a343d">19</text>
+  </g>
+</svg>

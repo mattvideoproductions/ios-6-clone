@@ -1,0 +1,25 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Procedurally authored for the simulator on 2024-10-16 to recreate the classic linen texture. -->
+  <defs>
+    <linearGradient id="linenBase" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#363940" />
+      <stop offset="1" stop-color="#26282d" />
+    </linearGradient>
+    <pattern id="linenFibers" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="none" />
+      <path d="M0 4H8" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+      <path d="M4 0V8" stroke="rgba(255,255,255,0.04)" stroke-width="1" />
+    </pattern>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="1.8" numOctaves="5" seed="12" />
+      <feColorMatrix type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.04" />
+      </feComponentTransfer>
+      <feBlend mode="overlay" in2="SourceGraphic" />
+    </filter>
+  </defs>
+  <rect width="120" height="120" fill="url(#linenBase)" />
+  <rect width="120" height="120" fill="url(#linenFibers)" opacity="0.35" />
+  <rect width="120" height="120" fill="rgba(255,255,255,0.02)" filter="url(#grain)" />
+</svg>

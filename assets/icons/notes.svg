@@ -1,0 +1,33 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Created manually for the simulator on 2024-10-16 to mirror iOS 6 notes styling. -->
+  <defs>
+    <linearGradient id="paper" x1="90" y1="20" x2="90" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffef5" />
+      <stop offset="1" stop-color="#f3ecd3" />
+    </linearGradient>
+    <linearGradient id="header" x1="90" y1="0" x2="90" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe27a" />
+      <stop offset="1" stop-color="#f0b617" />
+    </linearGradient>
+    <filter id="iconShadow" x="0" y="0" width="200%" height="200%">
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="out" result="inverse" />
+      <feFlood flood-color="rgba(0,0,0,0.25)" result="color" />
+      <feComposite in="color" in2="inverse" operator="in" result="shadow" />
+      <feComposite in="shadow" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+  <g filter="url(#iconShadow)">
+    <rect x="10" y="10" width="160" height="160" rx="32" fill="#cba448" />
+    <rect x="12" y="12" width="156" height="156" rx="28" fill="url(#paper)" stroke="rgba(255, 255, 255, 0.55)" stroke-width="2" />
+    <rect x="12" y="12" width="156" height="56" rx="28" fill="url(#header)" />
+    <line x1="24" y1="82" x2="156" y2="82" stroke="#e0c98a" stroke-width="2" />
+    <line x1="24" y1="102" x2="156" y2="102" stroke="#e0c98a" stroke-width="2" />
+    <line x1="24" y1="122" x2="156" y2="122" stroke="#e0c98a" stroke-width="2" />
+    <line x1="24" y1="142" x2="156" y2="142" stroke="#e0c98a" stroke-width="2" />
+    <circle cx="48" cy="40" r="10" fill="#fff7c8" stroke="#f6c52c" stroke-width="2" />
+    <circle cx="90" cy="40" r="10" fill="#fff7c8" stroke="#f6c52c" stroke-width="2" />
+    <circle cx="132" cy="40" r="10" fill="#fff7c8" stroke="#f6c52c" stroke-width="2" />
+  </g>
+</svg>

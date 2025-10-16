@@ -1,0 +1,22 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Created manually for the simulator on 2024-10-16 with gradients inspired by iOS 6 Music. -->
+  <defs>
+    <radialGradient id="musicBg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 40) rotate(90) scale(160 160)">
+      <stop offset="0" stop-color="#fffb9d" />
+      <stop offset="0.45" stop-color="#f9a75b" />
+      <stop offset="1" stop-color="#e44a83" />
+    </radialGradient>
+    <filter id="musicShadow" x="0" y="0" width="200%" height="200%">
+      <feOffset dx="0" dy="3" />
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="out" result="inverse" />
+      <feFlood flood-color="rgba(0,0,0,0.3)" result="color" />
+      <feComposite in="color" in2="inverse" operator="in" result="shadow" />
+      <feComposite in="shadow" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+  <g filter="url(#musicShadow)">
+    <rect x="10" y="10" width="160" height="160" rx="32" fill="url(#musicBg)" />
+    <path d="M96 52L128 44V112C128 122 120 130 110 130C100 130 92 122 92 112C92 104 97 97 104 94V68L80 74V124C80 134 72 142 62 142C52 142 44 134 44 124C44 114 52 106 62 106C66.264 106 70.116 107.45 73 110V62L96 52Z" fill="#ffffff" fill-opacity="0.88" />
+  </g>
+</svg>
