@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2025-10-16T16:45:40.067Z",
+  "assetCount": 7,
+  "assets": [
+    {
+      "id": "icons/calendar.svg",
+      "name": "calendar",
+      "category": "icons",
+      "format": "svg",
+      "path": "/assets/icons/calendar.svg",
+      "bytes": 1951,
+      "preload": true,
+      "viewBox": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    {
+      "id": "icons/music.svg",
+      "name": "music",
+      "category": "icons",
+      "format": "svg",
+      "path": "/assets/icons/music.svg",
+      "bytes": 1381,
+      "preload": true,
+      "viewBox": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    {
+      "id": "icons/notes.svg",
+      "name": "notes",
+      "category": "icons",
+      "format": "svg",
+      "path": "/assets/icons/notes.svg",
+      "bytes": 2018,
+      "preload": true,
+      "viewBox": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    {
+      "id": "textures/brushed-metal.svg",
+      "name": "brushed-metal",
+      "category": "textures",
+      "format": "svg",
+      "path": "/assets/textures/brushed-metal.svg",
+      "bytes": 1470,
+      "preload": false,
+      "viewBox": {
+        "width": 160,
+        "height": 160
+      }
+    },
+    {
+      "id": "textures/linen.svg",
+      "name": "linen",
+      "category": "textures",
+      "format": "svg",
+      "path": "/assets/textures/linen.svg",
+      "bytes": 1326,
+      "preload": false,
+      "viewBox": {
+        "width": 120,
+        "height": 120
+      }
+    },
+    {
+      "id": "wallpapers/ios6-aqua-blue.svg",
+      "name": "ios6-aqua-blue",
+      "category": "wallpapers",
+      "format": "svg",
+      "path": "/assets/wallpapers/ios6-aqua-blue.svg",
+      "bytes": 1275,
+      "preload": false,
+      "viewBox": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "id": "wallpapers/ios6-aqua-blue.webp",
+      "name": "ios6-aqua-blue",
+      "category": "wallpapers",
+      "format": "webp",
+      "path": "/assets/wallpapers/ios6-aqua-blue.webp",
+      "bytes": 4206,
+      "preload": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "skeuomorphic-ios6-simulator-artifacts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:assets": "node scripts/generate-asset-manifest.mjs",
+    "prepare": "npm run build:assets"
+  }
+}

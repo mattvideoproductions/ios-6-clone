@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iOS 6 Skeuomorphic Asset Showcase</title>
+    <link rel="stylesheet" href="src/styles/typography.css" />
+    <link rel="stylesheet" href="src/styles/utilities.css" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <div class="simulator-shell skeuo-grain">
+      <div class="status-bar">
+        <span class="pill-label">9:41 AM</span>
+        <span>Wed 19</span>
+        <span>97% 🔋</span>
+      </div>
+
+      <div class="grid">
+        <div class="app-icon skeuo-highlight" data-icon="calendar">
+          <img alt="" loading="lazy" decoding="async" />
+          <div class="app-label">Calendar</div>
+        </div>
+        <div class="app-icon skeuo-highlight" data-icon="notes">
+          <img alt="" loading="lazy" decoding="async" />
+          <div class="app-label">Notes</div>
+        </div>
+        <div class="app-icon skeuo-highlight" data-icon="music">
+          <img alt="" loading="lazy" decoding="async" />
+          <div class="app-label">Music</div>
+        </div>
+      </div>
+
+      <div class="sound-toggle skeuo-shadow" role="button" tabindex="0" aria-pressed="true">
+        <span>Sound Effects</span>
+        <span class="status">On</span>
+      </div>
+
+      <div class="control-row">
+        <button class="pill-label" data-sim-action="lock">Lock Screen</button>
+        <button class="pill-label" data-sim-action="notify">Send Notification</button>
+      </div>
+
+      <div class="asset-preview">
+        <div class="asset-card">
+          <h3 class="skeuo-text-emboss">Wallpaper</h3>
+          <div class="wallpaper-preview skeuo-highlight" data-wallpaper-preview></div>
+          <div class="meta"></div>
+        </div>
+        <div class="asset-card">
+          <h3 class="skeuo-text-emboss">Textures</h3>
+          <div class="texture-grid" data-texture-list></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="src/scripts/main.js"></script>
+  </body>
+</html>

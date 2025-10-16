@@ -1,0 +1,20 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Originally generated for the simulator on 2024-10-16 using custom gradients to evoke the iOS 6 aqua wallpaper. -->
+  <defs>
+    <radialGradient id="aquaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 256) rotate(90) scale(768 768)">
+      <stop offset="0" stop-color="#f9ffff" stop-opacity="0.9" />
+      <stop offset="0.25" stop-color="#9acff5" stop-opacity="0.9" />
+      <stop offset="0.65" stop-color="#377cc3" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#204c8f" />
+    </radialGradient>
+    <linearGradient id="sheen" x1="256" y1="96" x2="768" y2="768" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#aquaGlow)" />
+  <path d="M0 192C256 64 768 64 1024 192V0H0V192Z" fill="url(#sheen)" />
+  <circle cx="230" cy="220" r="80" fill="white" fill-opacity="0.08" />
+  <circle cx="804" cy="200" r="120" fill="white" fill-opacity="0.05" />
+  <circle cx="512" cy="820" r="200" fill="white" fill-opacity="0.04" />
+</svg>
